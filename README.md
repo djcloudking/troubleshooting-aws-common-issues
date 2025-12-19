@@ -15,6 +15,11 @@ It is focused on **Cloud Operations and Support scenarios**, not architecture th
 - Security group and NACL misconfigurations
 - Disk full and memory pressure on EC2
 - Application failures traced via CloudWatch logs
+- S3 uploads keep failing
+- Cost Explorer shows unexpected high cloud costs
+- Unexpected EC2 instance termination
+- S3 bucket access denied
+- SNS notifications are not being sent
 
 ## Tools & Services Used
 - AWS EC2
@@ -23,6 +28,9 @@ It is focused on **Cloud Operations and Support scenarios**, not architecture th
 - VPC (Security Groups, NACLs)
 - AWS CLI
 - Linux system commands
+- S3
+- AWS Cost Explorer
+- SNS
 
 ## Why This Matters in Production
 These are the same issues handled by:
